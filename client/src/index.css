@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Custom Theme Layer */
+@theme {
+  --color-primary: #FFD400;
+  --color-secondary: #FFC300;
+  --color-accent: #FF8C00;
+  --color-highlight: #FF5F00;
+
+  --color-background: #F8F8F8;
+  --color-dark: #434343;
+
+  --font-body: "Source Sans 3", sans-serif;
+}
+
+/* Apply globally */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+/* * {
+  transition: all 0.2s ease-in-out;
+} */
